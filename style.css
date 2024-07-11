@@ -28,7 +28,6 @@ body {
 
 .container {
   width: 311px;
-  height: 722;
   margin: 72px 32px 74px 32px;
   border-radius: 5px;
   overflow: hidden;
@@ -53,6 +52,9 @@ body {
   line-height: 25px;
   font-weight: 500;
 }
+.container main {
+  height: auto;
+}
 .container main h3 {
   color: white;
   font-size: 1.3em;
@@ -69,7 +71,7 @@ body {
   background-color: var(--Cyan);
   padding: 23px;
   color: white;
-  height: 227px;
+  height: auto;
   width: 100%;
 }
 .container main section .price {
@@ -106,7 +108,7 @@ body {
 .container main article {
   background-color: #4abebd;
   width: 100%;
-  height: 228px;
+  min-height: 258px;
   color: white;
   padding: 23px;
   border-radius: 0 0 5px 5px;
@@ -151,13 +153,13 @@ body {
     font-size: 1.2em;
   }
   .container main {
-    height: 258px;
+    height: auto;
     display: flex;
     border-radius: 0px 0px 5px 5px;
     overflow: hidden;
   }
   .container main section {
-    height: 258px;
+    min-height: 258px;
   }
   .container main section h3 {
     font-size: 1.8em;
@@ -172,14 +174,15 @@ body {
     padding: 17px;
   }
   .container main article {
-    height: 258px;
+    height: auto;
     border-radius: 0;
   }
   .container main article h3 {
     font-size: 1.8em;
   }
   .container main article p {
-    font-size: 1.2em;
+    margin-top: 0px;
+    font-size: 1.1em;
   }
   .container footer {
     font-size: 1.2em;
